@@ -30,10 +30,10 @@ require 'json'
 require 'right_http_connection'
 
 $:.unshift(File.dirname(__FILE__))
-require 'benchmark_fix'
-require 'support'
-require 'rimuhosting_base'
-require 'rimuhosting'
+require 'lib/benchmark_fix'
+require 'libsupport'
+require 'lib/rimuhosting_base'
+require 'lib/rimuhosting'
 
 module RightRimuHosting #:nodoc:
   module VERSION #:nodoc:
